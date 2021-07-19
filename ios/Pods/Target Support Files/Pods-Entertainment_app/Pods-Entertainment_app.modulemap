@@ -1,0 +1,6 @@
+module Pods_Entertainment_app {
+  umbrella header "Pods-Entertainment_app-umbrella.h"
+
+  export *
+  module * { export * }
+}
