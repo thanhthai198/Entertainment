@@ -5,10 +5,10 @@
       {
         "root": ["./"],
         "alias": {
-          // "@components": "./app/components",
-          // "@common": "./app/common",
-          // "@constants": "./app/constants"
-          "@customs": "./src/customs"
+          "@customs": "./src/customs",
+          "@contains": "./src/constants",
+          "@theme": "./src/theme",
+          "@utils": "./src/utils"
         }
       }
     ]

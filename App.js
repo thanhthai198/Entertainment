@@ -8,6 +8,7 @@ import {
   LoadingView,
   MTextInput,
   MFlatList,
+  MView,
 } from "@customs/index";
 import Image from "./src/assets/images";
 
