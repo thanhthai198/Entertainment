@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          // "@components": "./app/components",
+          // "@common": "./app/common",
+          // "@constants": "./app/constants"
+          "@customs": "./src/customs"
+        }
+      }
+    ]
+  ]
+}
