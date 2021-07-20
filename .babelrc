@@ -6,9 +6,11 @@
         "root": ["./"],
         "alias": {
           "@customs": "./src/customs",
-          "@contains": "./src/constants",
+          "@contains": "./src/contains",
           "@theme": "./src/theme",
-          "@utils": "./src/utils"
+          "@utils": "./src/utils",
+          "@services": "./src/service",
+          "@screens": "./src/screens"
         }
       }
     ]

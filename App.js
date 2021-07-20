@@ -1,23 +1,19 @@
 /* eslint-disable quotes */
-/* eslint-disable no-unused-vars */
 import React from "react";
-import {
-  MText,
-  BaseContainer,
-  MBackgroundImage,
-  LoadingView,
-  MTextInput,
-  MFlatList,
-  MView,
-} from "@customs/index";
-import Image from "./src/assets/images";
+import { ThemeProvider } from "react-native-picasso";
+import { NavigationContainer } from "@react-navigation/native";
+import { theme } from "@theme/theme";
+import { navigationRef } from "./src/services/navigationService";
+import "./src/services/translationService";
+import RootNavigation from "./src/navigations/rootNavigation";
 
 const App = () => {
   return (
-    <MBackgroundImage
-      style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
-      source={Image.background_sky}
-    />
+    <ThemeProvider theme={theme}>
+      <NavigationContainer ref={navigationRef}>
+        <RootNavigation />
+      </NavigationContainer>
+    </ThemeProvider>
   );
 };
 
